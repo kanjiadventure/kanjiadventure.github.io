@@ -1,0 +1,161 @@
+@font-face{
+	font-family: 'Libre Franklin Bold';
+	src: url('fonts/LibreFranklin-Bold.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Libre Franklin';
+	src: url('fonts/LibreFranklin-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Libre Franklin Bold';
+    font-size: 1.5em;
+    color: #c38539;
+	background: #333333;
+	background: -moz-radial-gradient(center, ellipse cover, #333333 72%, #131313 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #333333 72%,#131313 100%);
+	background: radial-gradient(ellipse at center, #333333 72%,#222 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#131313',GradientType=1 );
+	margin-bottom: 0;
+}
+
+p{
+	font-family: 'Libre Franklin';
+	max-width: 35em;
+}
+
+#wrapper{
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 4em;
+    color: #ffd42a;
+    text-align: center;
+    margin-bottom: 0;
+
+    text-shadow: 0 1px 0 #c38539, 0 2px 0 #c38539, 0 3px 0 #c38539, 0 4px 0 #c38539, 0 5px 0 #c38539, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2);
+}
+
+h2{
+    color: #ffd42a;
+}
+
+.separator1{
+	height: 0.3em;
+	width: 70%;
+}
+
+.separator2{
+	height: 0.3em;
+	width: 90%;
+}
+
+.separator3{
+	height: 0.3em;
+	width: 59%;
+}
+
+.icon{
+    width: 1.5em;
+    margin-right: 0.5em;
+}
+
+#items{
+	display: inline-block;
+	margin-top: 5em;
+}
+
+#items img{
+	width: 20%;
+	display: inline;
+	margin-left: 10%;
+}
+
+#subtitle{
+    color: #c38539;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+    margin-bottom: 2.5em;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	margin: 4em;
+}
+
+ul{
+	text-align: center;
+	margin: 3em;
+	width: 60%;
+	padding: 0;
+}
+
+#main_quest{
+	color: #d4ff2a;
+	font-size: 1.25em;
+}
+
+#side_quest{
+	color: #ffd42a;
+	font-size: 1.25em;
+}
+
+.quest_icon{
+	width: 2em;
+}
+
+#img_panel{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#img_quest{
+    width: 25%;
+    float: right;
+}
+
+#img_item{
+    width: 55%;
+    float: left;
+}
+
+#img_query{
+    width: 40%;
+    float: right;
+}
+
+#download_h2{
+	margin-top: 7em;
+    text-align: center;
+}
+
+#download div{
+    margin: 1.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+	height: 4em;
+	margin-bottom: 4em;
+	background-image: url('images/button_download.png');
+	background-size: 100% 100%;
+}
+
+#download div:hover{
+	background-image: url('images/button_download_select.png');
+	cursor: pointer;
+}
+
+footer{
+    font-size: 0.75em;
+    color: #777;
+    text-align: center;
+}
