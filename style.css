@@ -62,6 +62,7 @@ h2{
 .icon{
     width: 1.5em;
     margin-right: 0.5em;
+	vertical-align: middle;
 }
 
 #items{
@@ -110,6 +111,7 @@ ul{
 
 .quest_icon{
 	width: 2em;
+	vertical-align: middle;
 }
 
 #img_panel{
