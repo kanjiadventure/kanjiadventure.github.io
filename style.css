@@ -99,11 +99,13 @@ ul{
 #main_quest{
 	color: #d4ff2a;
 	font-size: 1.25em;
+	white-space: nowrap;
 }
 
 #side_quest{
 	color: #ffd42a;
 	font-size: 1.25em;
+	white-space: nowrap;
 }
 
 .quest_icon{
@@ -158,4 +160,23 @@ footer{
     font-size: 0.75em;
     color: #777;
     text-align: center;
+}
+
+@media screen and (max-width: 85em) {
+
+	#img_item{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		float: none;
+	}
+
+	#items{
+		display: block;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}
+
 }
