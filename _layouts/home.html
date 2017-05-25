@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div id="home">
+	<h1>Kanji Adventure</h1>
+	<span id="subtitle">Play through an adventure, learn kanji!</span>
+
+    <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+
+		{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+		<span class="post-meta">{{ post.date | date: date_format }}</span>
+      </li>
+    {% endfor %}
+    </ul>
+
+    <img id="img_quest" src="assets/quest.png" />
+    <h2><img class="icon" src="assets/questlog.png" />Complete quests</h2>
+	<p>Finish errands and get rewarded handsomely! You will hunt monsters,
+    collect treasure, discover hidden artifacts, craft items and more.</p>
+
+    <ul>
+    <li><span id="main_quest"><img class="quest_icon" src="assets/main_quest.png" />Main quest</span></li>
+    <li><span id="side_quest"><img class="quest_icon" src="assets/side_quest.png" />Side quest</span></li>
+    </ul>
+
+    <img class="separator1" src="assets/separator.png" />
+
+    <h2><img class="icon" src="assets/inventory.png" />Get rewarded</h2>
+    <p>Earn equipment that modifies your fighting conditions in fun, challenging and meaningful ways.
+        No more arbitrary statistics! Craft consumables that help replenish health and give other advantages.</p>
+    <img id="img_item" src="assets/item.png" />
+    <div id="items">
+    <img class="item" src="assets/pegasus_sandals.png" />
+    <img class="item" src="assets/cat_ears.png" />
+    <img class="item" src="assets/bread.png" />
+    </div>
+
+    <img class="separator2" src="assets/separator.png" />
+
+    <img id="img_query" src="assets/query.png" />
+    <h2><img class="icon" src="assets/encyclopedia.png" />Learn Japanese</h2>
+    <p>Mana is not the only resource the hero needs to cast spells.
+    You will also need to use your knowledge of Japanese kanji.
+    But fret not, you will learn as you progress through the game.</p>
+
+
+    <img class="separator3" src="assets/separator.png" />
+
+    <h2><img class="icon" src="assets/swords.png" />Turn-based combat</h2>
+    <p>Strategize as you plow through hordes of enemies.
+    With an array of spells at your disposal, you can always
+    pick the right tool to finish off an enemy. Almost, that is.</p>
+
+    <h2 id="download_h2">Ready to give it a try?</h2>
+    <a id="download" href="https://github.com/Tomires/kanjiadventure_release/archive/explore_showcase.zip"><div></div></a>
+    <img id="img_panel" src="assets/panel.png" />
+
+
+
+</div>
+</body>
+</html>
