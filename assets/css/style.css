@@ -231,7 +231,7 @@ ul{
     text-align: center;
 }
 
-#download div{
+#download{
     margin: 1.5em;
     display: block;
     margin-left: auto;
@@ -243,7 +243,7 @@ ul{
 	background-size: 100% 100%;
 }
 
-#download div:hover{
+#download:hover{
 	background-image: url('../button_download_select.png');
 	cursor: pointer;
 }
