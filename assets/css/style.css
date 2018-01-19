@@ -211,6 +211,16 @@ ul{
     display: block;
 }
 
+#img_play{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	border: 3px solid #ffd42a;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
 #img_quest{
     width: 25%;
     float: right;
